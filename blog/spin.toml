@@ -8,6 +8,6 @@ version = "0.1.0"
 [[component]]
 source = "spin_static_fs.wasm"
 id = "fs"
-files = [ { source = ".next/server/pages/", destination = "/" } ]
+files = [ { source = "out/", destination = "/" } ]
 [component.trigger]
-route = "/"
+route = "/..."
